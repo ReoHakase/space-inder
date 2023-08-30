@@ -7,6 +7,16 @@ const Home: FC = () => {
         <h1 className="my-6 text-5xl font-bold text-keyplate-12">ACMEへようこそ！</h1>
         <section>
           <p>
+            株式会社SPACEMARKETの25卒向けサマーインターンで作成している検索キーワードマッチング検証用のWebアプリです。
+          </p>
+          <p>
+            スマートフォンから操作できること 1検索条件1スペースの単位で定性評価できること
+            検索キーワードに対して、スペースマーケットのapiから取得されたスペースが表示されていること
+            表示されるスペースは1view 1スペース単位で表示されること
+            UI操作は右スワイプ（マッチ）と左スワイプ（不適合）のみで完結すること
+            マッチング結果は何かしらの方法でデータ永続化と保存がされていること
+          </p>
+          <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat

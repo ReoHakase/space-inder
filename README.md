@@ -1,7 +1,20 @@
-# 💽 ReoHakase/mystack
-A monorepo starter that includes Next 13 app
-![Frame 2](https://github.com/ReoHakase/mystack/assets/16751535/ec4d1314-0059-4a35-89b8-786cfaaeab53)
+# 🏡 space-inder
 
+A monorepo starter that includes Next 13 app
+
+株式会社SPACEMARKETの25卒向けサマーインターンで作成している検索キーワードマッチング検証用のWebアプリです。
+
+![Frame 2](https://github.com/ReoHakase/space-inder/assets/16751535/ec4d1314-0059-4a35-89b8-786cfaaeab53)
+
+> 今回作っていただきたいプロダクトは、特定キーワードを検索条件として表示されたスペースが、キーワードにマッチしているか判断できるアプリケーション、「検索キーワードマッチング検証アプリ」です。
+> 判断結果はいずれかの場所に保存され、結果からマッチング率分析ができる形式が望ましいです。
+
+- スマートフォンから操作できること
+- 1検索条件1スペースの単位で定性評価できること
+- 検索キーワードに対して、スペースマーケットのapiから取得されたスペースが表示されていること
+- 表示されるスペースは1view 1スペース単位で表示されること
+- UI操作は右スワイプ（マッチ）と左スワイプ（不適合）のみで完結すること
+- マッチング結果は何かしらの方法でデータ永続化と保存がされていること
 
 # Turborepo starter
 

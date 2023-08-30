@@ -43,10 +43,11 @@ export const metadata: Metadata = {
   metadataBase: domain,
 
   title: {
-    default: 'mystack',
-    template: '%s | mystack',
+    default: 'space-inder',
+    template: '%s | space-inder',
   },
-  description: 'mystack is an open-source web application template for Next.js, TypeScript, Tailwind CSS, and Vercel.',
+  description:
+    'space-inder is an open-source web application template for Next.js, TypeScript, Tailwind CSS, and Vercel.',
   viewport: {
     width: 'device-width',
     initialScale: 1.0,
