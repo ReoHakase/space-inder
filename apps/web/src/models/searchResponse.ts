@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { SpaceSchema } from './space';
+import { RoomSchema } from './room';
 
 export const SearchResponseSchema = z.object({
   data: z.object({
@@ -13,7 +13,7 @@ export const SearchResponseSchema = z.object({
       totalCount: z.number().nonnegative(),
       totalPages: z.number().positive(),
     }),
-    results: z.array(SpaceSchema),
+    results: z.array(RoomSchema),
   }),
 });
 
