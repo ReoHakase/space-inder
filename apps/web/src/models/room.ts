@@ -10,7 +10,7 @@ const ThumbnailSchema = z.object({
   description: z.string().nullable(), // 未設定の場合は、null もしくは 空文字列
 });
 
-export const SpaceSchema = z.object({
+export const RoomSchema = z.object({
   id: z.number(),
   uid: z.string(),
   spaceUsername: z.string(),
@@ -29,4 +29,4 @@ export const SpaceSchema = z.object({
   longitude: z.number(),
 });
 
-export type Space = z.infer<typeof SpaceSchema>;
+export type Room = z.infer<typeof RoomSchema>;

@@ -77,12 +77,6 @@ const config: Config = {
       // ========================
     },
     extend: {
-      borderRadius: {
-        // shadcn/ui
-        lg: 'var(--radius)',
-        md: 'calc(var(--radius) - 2px)',
-        sm: 'calc(var(--radius) - 4px)',
-      },
       boxShadow: {
         card: '0px 4px 16px rgba(0, 0, 0, 0.05)',
         floating: '0px 4px 32px rgba(0, 0, 0, 0.1)',
