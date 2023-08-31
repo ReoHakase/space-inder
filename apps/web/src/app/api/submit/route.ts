@@ -24,7 +24,7 @@ export async function POST(request: Request) {
       spaceUid: z.string(),
     });
     const Evaluation = EvaluationSchema.parse(rawEvaluation);
-    const evaluation = await prismaClient.evaluation.create({
+    const result = await prismaClient.evaluation.create({
       data: {
         isMatch: Evaluation.isMatch,
         keyword: Evaluation.keyword,
@@ -36,10 +36,10 @@ export async function POST(request: Request) {
       {
         message: '登録成功',
         evaluation: {
-          isMatch: evaluation.isMatch,
-          lastName: evaluation.keyword,
-          userId: evaluation.spaceUid,
-          imageUrl: evaluation.id,
+          isMatch: result.isMatch,
+          lastName: result.keyword,
+          userId: result.spaceUid,
+          imageUrl: result.id,
         },
       },
       { status: 200 },
