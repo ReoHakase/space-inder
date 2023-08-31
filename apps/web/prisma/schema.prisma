@@ -1,0 +1,20 @@
+generator client {
+  provider        = "prisma-client-js"
+}
+
+datasource db {
+  provider          = "postgresql"
+  url               = env("POSTGRES_PRISMA_URL")
+}
+
+model Evaluation {
+  id        Int      @id @default(autoincrement())
+  isMatch   Match
+  keyword   String
+  spaceUid  String 
+}
+
+enum Match {
+  MATCH
+  UNMATCH
+} 
