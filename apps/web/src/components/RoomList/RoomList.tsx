@@ -6,56 +6,6 @@ import { useCallback, useEffect, useState } from 'react';
 import { searchQueryFn } from './fetcher';
 import { RoomCard } from '@/components/RoomCard/RoomCard';
 import type { EvaluateHandler } from '@/components/RoomCard/RoomCard';
-import type { Room } from '@/models/room';
-
-const exampleRoom: Room = {
-  id: 28450,
-  uid: '9dPI7ngGy8UOTI8d',
-  spaceUsername: 'ALAMODETHEPALAIS',
-  name: 'ア・ラ・モードパレ&ザ・リゾート「メゾン・グラース」　／　A LA MODE PALAIS＆THE RESORT　神戸',
-  rentalReputationCount: 0,
-  rentalReputationScore: 0,
-  prices: [
-    {
-      minText: '¥50,000',
-      maxText: '',
-    },
-  ],
-  thumbnails: [
-    {
-      url: 'https://spacemarket-sandbox.global.ssl.fastly.net/uploads/attachments/138153/image.jpg',
-      description: '華やかな装飾がいっぱいあリます Lorem Ipsum ado ああああああああああああああああ',
-    },
-    {
-      url: 'https://spacemarket-sandbox.global.ssl.fastly.net/uploads/attachments/138154/image.jpg',
-      description: null,
-    },
-    {
-      url: 'https://spacemarket-sandbox.global.ssl.fastly.net/uploads/attachments/138155/image.jpg',
-      description: null,
-    },
-    {
-      url: 'https://spacemarket-sandbox.global.ssl.fastly.net/uploads/attachments/138156/image.jpg',
-      description: null,
-    },
-    {
-      url: 'https://spacemarket-sandbox.global.ssl.fastly.net/uploads/attachments/138157/image.jpg',
-      description: null,
-    },
-    {
-      url: 'https://spacemarket-sandbox.global.ssl.fastly.net/uploads/attachments/138158/image.jpg',
-      description: null,
-    },
-  ],
-  spaceTypeText: '結婚式場',
-  access: 'アイランドセンター駅下車徒歩2分(リバーモール沿い) ',
-  area: 150,
-  capacity: 100,
-  stateText: '兵庫県',
-  city: '東灘区',
-  latitude: 34.6868949,
-  longitude: 135.26923020000004,
-};
 
 export type RoomListProps = {
   keyword: string;
