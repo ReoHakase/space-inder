@@ -1,6 +1,7 @@
 'use client';
 
 import { useQuery } from '@tanstack/react-query';
+import { motion } from 'framer-motion';
 import type { FC } from 'react';
 import { useCallback, useEffect, useState } from 'react';
 import { searchQueryFn } from './fetcher';
@@ -58,24 +59,30 @@ export const RoomList: FC<RoomListProps> = ({ keyword }) => {
         <p className="flex grow flex-row items-center justify-center gap-1 overflow-hidden text-ellipsis rounded-full bg-keyplate-3 p-2 text-right text-xs text-keyplate-11 no-underline duration-100">
           📄 {queryResult.data?.data.pageInfo.totalCount} 件の結果が見つかりました{' '}
         </p>
+        <motion.div
+          layout
+          transition={{ type: 'spring', stiffness: 600, damping: 30 }}
+          className="flex w-full flex-col gap-4"
+        >
+          {queryResult.data?.data.results.map((room) => (
+            <RoomCard
+              key={room.uid}
+              {...{
+                uid: room.uid,
+                name: room.name,
+                prices: room.prices,
+                thumbnails: room.thumbnails,
+                access: room.access,
+                capacity: room.capacity,
+                spaceTypeText: room.spaceTypeText,
+                spaceUsername: room.spaceUsername,
+              }}
+              onEvaluate={onEvaluateHandler}
+              className="max-w-full"
+            />
+          ))}
+        </motion.div>
 
-        {queryResult.data?.data.results.map((room) => (
-          <RoomCard
-            key={room.uid}
-            {...{
-              uid: room.uid,
-              name: room.name,
-              prices: room.prices,
-              thumbnails: room.thumbnails,
-              access: room.access,
-              capacity: room.capacity,
-              spaceTypeText: room.spaceTypeText,
-              spaceUsername: room.spaceUsername,
-            }}
-            onEvaluate={onEvaluateHandler}
-            className="max-w-full"
-          />
-        ))}
         <p className="flex grow flex-row items-center justify-center gap-1 overflow-hidden text-ellipsis rounded-full bg-keyplate-3 p-2 text-right text-xs text-keyplate-11 no-underline duration-100">
           📄 {queryResult.data?.data.pageInfo.totalPages} ページ中 {page} ページ目を表示中
         </p>
