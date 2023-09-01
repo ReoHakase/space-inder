@@ -61,7 +61,7 @@ export type RoomListProps = {
 
 export const RoomList: FC<RoomListProps> = ({ keyword }) => {
   const onEvaluateHandler: EvaluateHandler = useCallback(
-    ({ uid, spaceUsername, type }) => {
+    async ({ uid, spaceUsername, type }) => {
       console.log('評価がなされました', { keyword, uid, spaceUsername, type });
       const postData = {
         isMatch: type.toUpperCase(),
@@ -69,15 +69,13 @@ export const RoomList: FC<RoomListProps> = ({ keyword }) => {
         spaceUid: uid,
       };
       //エンドポイントにデータ送信
-      (async () => {
-        const response = await fetch(`/api/submit`, {
-          method: 'POST',
-          body: JSON.stringify(postData),
-        });
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-      })();
+      const response = await fetch(`/api/submit`, {
+        method: 'POST',
+        body: JSON.stringify(postData),
+      });
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
     },
     [keyword],
   );
