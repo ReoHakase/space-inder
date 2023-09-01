@@ -1,5 +1,6 @@
 'use client';
 
+import { useSearchParams } from 'next/navigation';
 import type { FC } from 'react';
 import { useCallback } from 'react';
 import { RoomCard } from '@/components/RoomCard/RoomCard';
