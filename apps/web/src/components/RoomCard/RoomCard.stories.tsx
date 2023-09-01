@@ -1,3 +1,4 @@
+import { action } from '@storybook/addon-actions';
 import type { Meta, StoryObj } from '@storybook/react';
 import { RoomCard } from './RoomCard';
 import type { Room } from '@/models/room';
@@ -178,6 +179,7 @@ const meta = {
     capacity: exampleRoom.capacity,
     spaceTypeText: exampleRoom.spaceTypeText,
     spaceUsername: exampleRoom.spaceUsername,
+    onEvaluate: action('onEvaluate'),
     className: 'max-w-sm',
   },
   argTypes: {},
