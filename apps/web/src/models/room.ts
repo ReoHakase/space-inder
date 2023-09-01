@@ -25,8 +25,8 @@ export const RoomSchema = z.object({
   capacity: z.number(),
   stateText: z.string(),
   city: z.string(),
-  latitude: z.number(),
-  longitude: z.number(),
+  latitude: z.number().nullable(),
+  longitude: z.number().nullable(),
 });
 
 export type Room = z.infer<typeof RoomSchema>;
