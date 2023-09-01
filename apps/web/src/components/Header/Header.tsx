@@ -33,7 +33,7 @@ export const Header: FC<HeaderProps> = ({ children, ...props }) => {
               desktop: '10vw',
             }}
             placeholder="blur"
-            className="h-[45.493px] w-[47px] shrink-0 dark:hidden"
+            className="h-[45.493px] w-[47px] shrink-0"
           />
         </Link>
 
