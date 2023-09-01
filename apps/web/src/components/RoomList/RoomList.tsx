@@ -77,8 +77,21 @@ export const RoomList: FC<RoomListProps> = ({ keyword }) => {
   }, [queryResult]);
 
   const onEvaluateHandler: EvaluateHandler = useCallback(
-    ({ uid, spaceUsername, type }) => {
+    async ({ uid, spaceUsername, type }) => {
       console.log('評価がなされました', { keyword, uid, spaceUsername, type });
+      const postData = {
+        isMatch: type.toUpperCase(),
+        keyword: keyword,
+        spaceUid: uid,
+      };
+      //エンドポイントにデータ送信
+      const response = await fetch(`/api/submit`, {
+        method: 'POST',
+        body: JSON.stringify(postData),
+      });
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
     },
     [keyword],
   );
