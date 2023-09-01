@@ -20,7 +20,7 @@ export const RoomSchema = z.object({
   prices: z.array(PriceSchema).length(1), // 謎の長さ1配列
   thumbnails: z.array(ThumbnailSchema),
   spaceTypeText: z.string(),
-  access: z.string(),
+  access: z.string().nullable(),
   area: z.number(),
   capacity: z.number(),
   stateText: z.string(),
