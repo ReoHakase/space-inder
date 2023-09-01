@@ -7,7 +7,7 @@ import { cn } from '@/utils/cn';
 const generateRoomLink = ({ uid, spaceUsername }: Pick<Room, 'uid' | 'spaceUsername'>) =>
   new URL(`/spaces/${spaceUsername}/rooms/${uid}/`, 'https://www.spacemarket.com/');
 
-type EvaluateHandler = ({
+export type EvaluateHandler = ({
   uid,
   spaceUsername,
   type,
