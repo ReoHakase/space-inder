@@ -60,7 +60,7 @@
     "tailwind-scrollbar": "3.0.5",
     "tailwindcss": "3.3.5",
     "tsconfig": "workspace:*",
-    "tw-colors": "3.1.2",
+    "tw-colors": "3.2.0",
     "webpack": "5.89.0"
   }
 }
