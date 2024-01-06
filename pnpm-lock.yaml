@@ -100,10 +100,10 @@ importers:
         version: 2.2.0
       tailwind-variants:
         specifier: 0.1.20
-        version: 0.1.20(tailwindcss@3.4.0)
+        version: 0.1.20(tailwindcss@3.4.1)
       tailwindcss-animate:
         specifier: 1.0.7
-        version: 1.0.7(tailwindcss@3.4.0)
+        version: 1.0.7(tailwindcss@3.4.1)
       typescript:
         specifier: 5.3.3
         version: 5.3.3
@@ -161,16 +161,16 @@ importers:
         version: 7.6.7
       tailwind-scrollbar:
         specifier: 3.0.5
-        version: 3.0.5(tailwindcss@3.4.0)
+        version: 3.0.5(tailwindcss@3.4.1)
       tailwindcss:
-        specifier: 3.4.0
-        version: 3.4.0
+        specifier: 3.4.1
+        version: 3.4.1
       tsconfig:
         specifier: workspace:*
         version: link:../../packages/tsconfig
       tw-colors:
         specifier: 3.3.1
-        version: 3.3.1(tailwindcss@3.4.0)
+        version: 3.3.1(tailwindcss@3.4.1)
       webpack:
         specifier: 5.89.0
         version: 5.89.0(@swc/core@1.3.93)(esbuild@0.18.18)
@@ -258,7 +258,7 @@ importers:
         version: 0.6.15(eslint@8.56.0)(typescript@5.3.3)
       eslint-plugin-tailwindcss:
         specifier: 3.13.1
-        version: 3.13.1(tailwindcss@3.4.0)
+        version: 3.13.1(tailwindcss@3.4.1)
       typescript:
         specifier: 5.3.3
         version: 5.3.3
@@ -7029,7 +7029,7 @@ packages:
       - typescript
     dev: false
 
-  /eslint-plugin-tailwindcss@3.13.1(tailwindcss@3.4.0):
+  /eslint-plugin-tailwindcss@3.13.1(tailwindcss@3.4.1):
     resolution: {integrity: sha512-2Nlgr9doO6vFAG9w4iGU0sspWXuzypfng10HTF+dFS2NterhweWtgdRvf/f7aaoOUUxVZM8wMIXzazrZ7CxyeA==}
     engines: {node: '>=12.13.0'}
     peerDependencies:
@@ -7037,7 +7037,7 @@ packages:
     dependencies:
       fast-glob: 3.3.1
       postcss: 8.4.33
-      tailwindcss: 3.4.0
+      tailwindcss: 3.4.1
     dev: false
 
   /eslint-plugin-turbo@1.10.14(eslint@8.56.0):
@@ -11653,35 +11653,35 @@ packages:
       '@babel/runtime': 7.23.5
     dev: false
 
-  /tailwind-scrollbar@3.0.5(tailwindcss@3.4.0):
+  /tailwind-scrollbar@3.0.5(tailwindcss@3.4.1):
     resolution: {integrity: sha512-0ZwxTivevqq9BY9fRP9zDjHl7Tu+J5giBGbln+0O1R/7nHtBUKnjQcA1aTIhK7Oyjp6Uc/Dj6/dn8Dq58k5Uww==}
     engines: {node: '>=12.13.0'}
     peerDependencies:
       tailwindcss: 3.x
     dependencies:
-      tailwindcss: 3.4.0
+      tailwindcss: 3.4.1
     dev: true
 
-  /tailwind-variants@0.1.20(tailwindcss@3.4.0):
+  /tailwind-variants@0.1.20(tailwindcss@3.4.1):
     resolution: {integrity: sha512-AMh7x313t/V+eTySKB0Dal08RHY7ggYK0MSn/ad8wKWOrDUIzyiWNayRUm2PIJ4VRkvRnfNuyRuKbLV3EN+ewQ==}
     engines: {node: '>=16.x', pnpm: '>=7.x'}
     peerDependencies:
       tailwindcss: '*'
     dependencies:
       tailwind-merge: 1.14.0
-      tailwindcss: 3.4.0
+      tailwindcss: 3.4.1
     dev: false
 
-  /tailwindcss-animate@1.0.7(tailwindcss@3.4.0):
+  /tailwindcss-animate@1.0.7(tailwindcss@3.4.1):
     resolution: {integrity: sha512-bl6mpH3T7I3UFxuvDEXLxy/VuFxBk5bbzplh7tXI68mwMokNYd1t9qPBHlnyTwfa4JGC4zP516I1hYYtQ/vspA==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
     dependencies:
-      tailwindcss: 3.4.0
+      tailwindcss: 3.4.1
     dev: false
 
-  /tailwindcss@3.4.0:
-    resolution: {integrity: sha512-VigzymniH77knD1dryXbyxR+ePHihHociZbXnLZHUyzf2MMs2ZVqlUrZ3FvpXP8pno9JzmILt1sZPD19M3IxtA==}
+  /tailwindcss@3.4.1:
+    resolution: {integrity: sha512-qAYmXRfk3ENzuPBakNK0SRrUDipP8NQnEY6772uDhflcQz5EhRdD7JNZxyrFHVQNCwULPBn6FNPp9brpO7ctcA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -12074,7 +12074,7 @@ packages:
       turbo-windows-arm64: 1.11.3
     dev: true
 
-  /tw-colors@3.3.1(tailwindcss@3.4.0):
+  /tw-colors@3.3.1(tailwindcss@3.4.1):
     resolution: {integrity: sha512-PH6NShNtDzPCm6zjl0SZe3kmdYSfDS7Sk4mWa9+KzaeSH1ZmpLRrBjZoBJKaFcDB3o7iuFPPg9+HtW05pGPQyQ==}
     peerDependencies:
       tailwindcss: '>=3.0.0'
@@ -12082,7 +12082,7 @@ packages:
       color: 4.2.3
       flat: 5.0.2
       lodash.foreach: 4.5.0
-      tailwindcss: 3.4.0
+      tailwindcss: 3.4.1
     dev: true
 
   /type-check@0.4.0:
