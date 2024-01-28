@@ -81,8 +81,8 @@ importers:
         specifier: 0.2.1
         version: 0.2.1(next@14.1.0)(react-dom@18.2.0)(react@18.2.0)
       pnpm:
-        specifier: 8.14.3
-        version: 8.14.3
+        specifier: 8.15.0
+        version: 8.15.0
       prisma:
         specifier: 5.8.1
         version: 5.8.1
@@ -10112,8 +10112,8 @@ packages:
       - typescript
     dev: true
 
-  /pnpm@8.14.3:
-    resolution: {integrity: sha512-w+2A61g74+K37zHrlri5z6oFA+XUTscXUUEgtRh7L5M3NukDjFGlojrVgnkLpB1Kt4RhjIn6fiNl9mZWhdYS7g==}
+  /pnpm@8.15.0:
+    resolution: {integrity: sha512-6kVRfVKF0SPqwCw3k1Bfof1tqQovxg0ejZ4MHpKSiG7Pr/UT8GK50cyAIbuGFQM7GsW+o7LuP8FlptcDS75rAw==}
     engines: {node: '>=16.14'}
     hasBin: true
     dev: false
