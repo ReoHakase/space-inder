@@ -19,7 +19,7 @@
     "lint-staged": "15.2.2",
     "prettier": "3.2.5",
     "scaffdog": "3.0.0",
-    "turbo": "1.12.4"
+    "turbo": "1.13.2"
   },
   "engines": {
     "node": ">=18.0.0 <19",
