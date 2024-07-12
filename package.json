@@ -27,7 +27,7 @@
   },
   "packageManager": "pnpm@9.4.0",
   "volta": {
-    "node": "18.20.3"
+    "node": "18.20.4"
   },
   "nextBundleAnalysis": {
     "budget": 358400,
