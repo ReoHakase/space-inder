@@ -55,10 +55,10 @@
     "autoprefixer": "10.4.20",
     "eslint-config-custom-next": "workspace:*",
     "jest-mock": "29.7.0",
-    "postcss": "8.4.40",
+    "postcss": "8.4.41",
     "storybook": "7.6.20",
     "tailwind-scrollbar": "3.1.0",
-    "tailwindcss": "3.4.7",
+    "tailwindcss": "3.4.9",
     "tsconfig": "workspace:*",
     "tw-colors": "3.3.1",
     "webpack": "5.93.0"
