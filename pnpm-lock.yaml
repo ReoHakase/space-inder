@@ -81,8 +81,8 @@ importers:
         specifier: 0.2.1
         version: 0.2.1(next@14.1.0(@babel/core@7.26.8)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       pnpm:
-        specifier: 9.0.4
-        version: 9.0.4
+        specifier: 10.2.1
+        version: 10.2.1
       prisma:
         specifier: 6.0.0
         version: 6.0.0
@@ -5405,8 +5405,8 @@ packages:
     resolution: {integrity: sha512-2Rb3vm+EXble/sMXNSu6eoBx8e79gKqhNq9F5ZWW6ERNCTE/Q0wQNne5541tE5vKjfM8hpNCYL+LGc1YTfI0dg==}
     engines: {node: '>=6'}
 
-  pnpm@9.0.4:
-    resolution: {integrity: sha512-w3S1LePeiMWP2DM99mSnNyec2w4TRLpAVNOx//qaGjZwhU91XcpPFq3qPxS+mJan/K8WdAn+DBrWBHUnHa/oGg==}
+  pnpm@10.2.1:
+    resolution: {integrity: sha512-OYA1x71pbQugsQpojtVYKFMp0n6plIBKUrrZFn2OOnK8uZP5aZWF08old5rGSUnvQidXpsMRAsEquTLly+XMkg==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -13203,7 +13203,7 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  pnpm@9.0.4: {}
+  pnpm@10.2.1: {}
 
   polished@4.2.2:
     dependencies:
