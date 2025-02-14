@@ -41,7 +41,7 @@
     "zod": "3.22.4"
   },
   "devDependencies": {
-    "@babel/core": "7.26.8",
+    "@babel/core": "7.26.9",
     "@storybook/addon-a11y": "7.6.20",
     "@storybook/addon-actions": "7.6.20",
     "@storybook/addon-essentials": "7.6.20",
@@ -55,12 +55,12 @@
     "autoprefixer": "10.4.20",
     "eslint-config-custom-next": "workspace:*",
     "jest-mock": "29.7.0",
-    "postcss": "8.5.1",
+    "postcss": "8.5.2",
     "storybook": "7.6.20",
     "tailwind-scrollbar": "3.1.0",
     "tailwindcss": "3.4.17",
     "tsconfig": "workspace:*",
     "tw-colors": "3.3.2",
-    "webpack": "5.97.1"
+    "webpack": "5.98.0"
   }
 }
