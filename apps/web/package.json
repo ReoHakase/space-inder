@@ -55,7 +55,7 @@
     "autoprefixer": "10.4.20",
     "eslint-config-custom-next": "workspace:*",
     "jest-mock": "29.7.0",
-    "postcss": "8.5.2",
+    "postcss": "8.5.3",
     "storybook": "7.6.20",
     "tailwind-scrollbar": "3.1.0",
     "tailwindcss": "3.4.17",
