@@ -24,8 +24,8 @@ importers:
         specifier: 15.4.3
         version: 15.4.3
       prettier:
-        specifier: 3.5.2
-        version: 3.5.2
+        specifier: 3.5.3
+        version: 3.5.3
       scaffdog:
         specifier: 3.0.0
         version: 3.0.0
@@ -197,7 +197,7 @@ importers:
         version: 10.0.1(eslint@8.56.0)
       eslint-config-turbo:
         specifier: latest
-        version: 2.4.2(eslint@8.56.0)(turbo@1.13.4)
+        version: 2.4.4(eslint@8.56.0)(turbo@1.13.4)
       eslint-plugin-import:
         specifier: 2.29.1
         version: 2.29.1(@typescript-eslint/parser@7.0.1(eslint@8.56.0)(typescript@5.3.3))(eslint@8.56.0)
@@ -206,8 +206,8 @@ importers:
         version: 5.3.3
     devDependencies:
       prettier:
-        specifier: 3.5.2
-        version: 3.5.2
+        specifier: 3.5.3
+        version: 3.5.3
 
   packages/eslint-config-custom-next:
     dependencies:
@@ -237,7 +237,7 @@ importers:
         version: 10.0.1(eslint@8.56.0)
       eslint-config-turbo:
         specifier: latest
-        version: 2.4.2(eslint@8.56.0)(turbo@1.13.4)
+        version: 2.4.4(eslint@8.56.0)(turbo@1.13.4)
       eslint-plugin-import:
         specifier: 2.29.1
         version: 2.29.1(@typescript-eslint/parser@7.0.1(eslint@8.56.0)(typescript@5.3.3))(eslint@8.56.0)
@@ -246,7 +246,7 @@ importers:
         version: 6.8.0(eslint@8.56.0)
       eslint-plugin-prettier:
         specifier: 5.1.3
-        version: 5.1.3(@types/eslint@8.21.1)(eslint-config-prettier@10.0.1(eslint@8.56.0))(eslint@8.56.0)(prettier@3.5.2)
+        version: 5.1.3(@types/eslint@8.21.1)(eslint-config-prettier@10.0.1(eslint@8.56.0))(eslint@8.56.0)(prettier@3.5.3)
       eslint-plugin-react:
         specifier: 7.33.2
         version: 7.33.2(eslint@8.56.0)
@@ -264,14 +264,14 @@ importers:
         version: 5.3.3
     devDependencies:
       prettier:
-        specifier: 3.5.2
-        version: 3.5.2
+        specifier: 3.5.3
+        version: 3.5.3
 
   packages/tsconfig:
     devDependencies:
       prettier:
-        specifier: 3.5.2
-        version: 3.5.2
+        specifier: 3.5.3
+        version: 3.5.3
 
   packages/utils:
     devDependencies:
@@ -282,14 +282,14 @@ importers:
         specifier: workspace:*
         version: link:../eslint-config-custom
       prettier:
-        specifier: 3.5.2
-        version: 3.5.2
+        specifier: 3.5.3
+        version: 3.5.3
       tsconfig:
         specifier: workspace:*
         version: link:../tsconfig
       typescript:
-        specifier: 5.7.3
-        version: 5.7.3
+        specifier: 5.8.2
+        version: 5.8.2
 
 packages:
 
@@ -3571,8 +3571,8 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-config-turbo@2.4.2:
-    resolution: {integrity: sha512-yPiW5grffSWETp/3bVPUXWQkHfiLoOBb3wuBbM90HlKkLOhggySn9C6/yUccprqRguMgR5OzXIuzDuUnX6bulw==}
+  eslint-config-turbo@2.4.4:
+    resolution: {integrity: sha512-4w/heWywWkFw09a5MY5lCvb9suJlhBSkzNtGTwM5+zRif4rksubaMYy1pD0++5rqoDVcQax25jCrtii9ptsNDw==}
     peerDependencies:
       eslint: '>6.6.0'
       turbo: '>2.0.0'
@@ -3668,8 +3668,8 @@ packages:
     peerDependencies:
       tailwindcss: ^3.4.0
 
-  eslint-plugin-turbo@2.4.2:
-    resolution: {integrity: sha512-67IZtvOFaWDnUmYMV3luRIE1kqL+ok5MxPEsIPUqH2vQggML7jmZFZx/P9jhXAoFH+pViEz5QEzDa2DBLHqzQg==}
+  eslint-plugin-turbo@2.4.4:
+    resolution: {integrity: sha512-myEnQTjr3FkI0j1Fu0Mqnv1z8n0JW5iFTOUNzHaEevjzl+1uzMSsFwks/x8i3rGmI3EYtC1BY8K2B2pS0Vfx6w==}
     peerDependencies:
       eslint: '>6.6.0'
       turbo: '>2.0.0'
@@ -5503,8 +5503,8 @@ packages:
     engines: {node: '>=10.13.0'}
     hasBin: true
 
-  prettier@3.5.2:
-    resolution: {integrity: sha512-lc6npv5PH7hVqozBR7lkBNOGXV9vMwROAPlumdBkX0wTbbzPu/U1hk5yL8p2pt4Xoc+2mkT8t/sow2YrV/M5qg==}
+  prettier@3.5.3:
+    resolution: {integrity: sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -6558,8 +6558,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  typescript@5.7.3:
-    resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
+  typescript@5.8.2:
+    resolution: {integrity: sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -11069,10 +11069,10 @@ snapshots:
     dependencies:
       eslint: 8.57.1
 
-  eslint-config-turbo@2.4.2(eslint@8.56.0)(turbo@1.13.4):
+  eslint-config-turbo@2.4.4(eslint@8.56.0)(turbo@1.13.4):
     dependencies:
       eslint: 8.56.0
-      eslint-plugin-turbo: 2.4.2(eslint@8.56.0)(turbo@1.13.4)
+      eslint-plugin-turbo: 2.4.4(eslint@8.56.0)(turbo@1.13.4)
       turbo: 1.13.4
 
   eslint-import-resolver-node@0.3.9:
@@ -11192,10 +11192,10 @@ snapshots:
       object.entries: 1.1.7
       object.fromentries: 2.0.7
 
-  eslint-plugin-prettier@5.1.3(@types/eslint@8.21.1)(eslint-config-prettier@10.0.1(eslint@8.56.0))(eslint@8.56.0)(prettier@3.5.2):
+  eslint-plugin-prettier@5.1.3(@types/eslint@8.21.1)(eslint-config-prettier@10.0.1(eslint@8.56.0))(eslint@8.56.0)(prettier@3.5.3):
     dependencies:
       eslint: 8.56.0
-      prettier: 3.5.2
+      prettier: 3.5.3
       prettier-linter-helpers: 1.0.0
       synckit: 0.8.6
     optionalDependencies:
@@ -11247,7 +11247,7 @@ snapshots:
       postcss: 8.5.3
       tailwindcss: 3.4.17
 
-  eslint-plugin-turbo@2.4.2(eslint@8.56.0)(turbo@1.13.4):
+  eslint-plugin-turbo@2.4.4(eslint@8.56.0)(turbo@1.13.4):
     dependencies:
       dotenv: 16.0.3
       eslint: 8.56.0
@@ -13329,7 +13329,7 @@ snapshots:
 
   prettier@2.8.8: {}
 
-  prettier@3.5.2: {}
+  prettier@3.5.3: {}
 
   pretty-error@4.0.0:
     dependencies:
@@ -14519,7 +14519,7 @@ snapshots:
 
   typescript@5.3.3: {}
 
-  typescript@5.7.3: {}
+  typescript@5.8.2: {}
 
   uglify-js@3.17.4:
     optional: true
