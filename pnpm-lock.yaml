@@ -99,8 +99,8 @@ importers:
         specifier: 3.0.1
         version: 3.0.1
       tailwind-variants:
-        specifier: 0.1.20
-        version: 0.1.20(tailwindcss@3.4.17)
+        specifier: 1.0.0
+        version: 1.0.0(tailwindcss@3.4.17)
       tailwindcss-animate:
         specifier: 1.0.7
         version: 1.0.7(tailwindcss@3.4.17)
@@ -197,7 +197,7 @@ importers:
         version: 10.0.1(eslint@8.56.0)
       eslint-config-turbo:
         specifier: latest
-        version: 2.4.2(eslint@8.56.0)(turbo@1.13.4)
+        version: 2.4.4(eslint@8.56.0)(turbo@1.13.4)
       eslint-plugin-import:
         specifier: 2.29.1
         version: 2.29.1(@typescript-eslint/parser@7.0.1(eslint@8.56.0)(typescript@5.3.3))(eslint@8.56.0)
@@ -237,7 +237,7 @@ importers:
         version: 10.0.1(eslint@8.56.0)
       eslint-config-turbo:
         specifier: latest
-        version: 2.4.2(eslint@8.56.0)(turbo@1.13.4)
+        version: 2.4.4(eslint@8.56.0)(turbo@1.13.4)
       eslint-plugin-import:
         specifier: 2.29.1
         version: 2.29.1(@typescript-eslint/parser@7.0.1(eslint@8.56.0)(typescript@5.3.3))(eslint@8.56.0)
@@ -3571,8 +3571,8 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-config-turbo@2.4.2:
-    resolution: {integrity: sha512-yPiW5grffSWETp/3bVPUXWQkHfiLoOBb3wuBbM90HlKkLOhggySn9C6/yUccprqRguMgR5OzXIuzDuUnX6bulw==}
+  eslint-config-turbo@2.4.4:
+    resolution: {integrity: sha512-4w/heWywWkFw09a5MY5lCvb9suJlhBSkzNtGTwM5+zRif4rksubaMYy1pD0++5rqoDVcQax25jCrtii9ptsNDw==}
     peerDependencies:
       eslint: '>6.6.0'
       turbo: '>2.0.0'
@@ -3668,8 +3668,8 @@ packages:
     peerDependencies:
       tailwindcss: ^3.4.0
 
-  eslint-plugin-turbo@2.4.2:
-    resolution: {integrity: sha512-67IZtvOFaWDnUmYMV3luRIE1kqL+ok5MxPEsIPUqH2vQggML7jmZFZx/P9jhXAoFH+pViEz5QEzDa2DBLHqzQg==}
+  eslint-plugin-turbo@2.4.4:
+    resolution: {integrity: sha512-myEnQTjr3FkI0j1Fu0Mqnv1z8n0JW5iFTOUNzHaEevjzl+1uzMSsFwks/x8i3rGmI3EYtC1BY8K2B2pS0Vfx6w==}
     peerDependencies:
       eslint: '>6.6.0'
       turbo: '>2.0.0'
@@ -6240,11 +6240,11 @@ packages:
     resolution: {integrity: sha512-laHF2savN6sMeHCjLRkheIU4wo3Zg9Ln5YOjOo7sZ5dVQW8yF5pPE5SIw1dsPhq3TRp1jisKRCdPhfs/1WMqDA==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
-  tailwind-merge@1.14.0:
-    resolution: {integrity: sha512-3mFKyCo/MBcgyOTlrY8T7odzZFx+w+qKSMAmdFzRvqBfLlSigU6TZnlFHK0lkMwj9Bj8OYU+9yW9lmGuS0QEnQ==}
-
   tailwind-merge@3.0.1:
     resolution: {integrity: sha512-AvzE8FmSoXC7nC+oU5GlQJbip2UO7tmOhOfQyOmPhrStOGXHU08j8mZEHZ4BmCqY5dWTCo4ClWkNyRNx1wpT0g==}
+
+  tailwind-merge@3.0.2:
+    resolution: {integrity: sha512-l7z+OYZ7mu3DTqrL88RiKrKIqO3NcpEO8V/Od04bNpvk0kiIFndGEoqfuzvj4yuhRkHKjRkII2z+KS2HfPcSxw==}
 
   tailwind-scrollbar@3.1.0:
     resolution: {integrity: sha512-pmrtDIZeHyu2idTejfV59SbaJyvp1VRjYxAjZBH0jnyrPRo6HL1kD5Glz8VPagasqr6oAx6M05+Tuw429Z8jxg==}
@@ -6252,8 +6252,8 @@ packages:
     peerDependencies:
       tailwindcss: 3.x
 
-  tailwind-variants@0.1.20:
-    resolution: {integrity: sha512-AMh7x313t/V+eTySKB0Dal08RHY7ggYK0MSn/ad8wKWOrDUIzyiWNayRUm2PIJ4VRkvRnfNuyRuKbLV3EN+ewQ==}
+  tailwind-variants@1.0.0:
+    resolution: {integrity: sha512-2WSbv4ulEEyuBKomOunut65D8UZwxrHoRfYnxGcQNnHqlSCp2+B7Yz2W+yrNDrxRodOXtGD/1oCcKGNBnUqMqA==}
     engines: {node: '>=16.x', pnpm: '>=7.x'}
     peerDependencies:
       tailwindcss: '*'
@@ -11069,10 +11069,10 @@ snapshots:
     dependencies:
       eslint: 8.57.1
 
-  eslint-config-turbo@2.4.2(eslint@8.56.0)(turbo@1.13.4):
+  eslint-config-turbo@2.4.4(eslint@8.56.0)(turbo@1.13.4):
     dependencies:
       eslint: 8.56.0
-      eslint-plugin-turbo: 2.4.2(eslint@8.56.0)(turbo@1.13.4)
+      eslint-plugin-turbo: 2.4.4(eslint@8.56.0)(turbo@1.13.4)
       turbo: 1.13.4
 
   eslint-import-resolver-node@0.3.9:
@@ -11247,7 +11247,7 @@ snapshots:
       postcss: 8.5.3
       tailwindcss: 3.4.17
 
-  eslint-plugin-turbo@2.4.2(eslint@8.56.0)(turbo@1.13.4):
+  eslint-plugin-turbo@2.4.4(eslint@8.56.0)(turbo@1.13.4):
     dependencies:
       dotenv: 16.0.3
       eslint: 8.56.0
@@ -14192,17 +14192,17 @@ snapshots:
       '@pkgr/utils': 2.4.2
       tslib: 2.6.2
 
-  tailwind-merge@1.14.0: {}
-
   tailwind-merge@3.0.1: {}
+
+  tailwind-merge@3.0.2: {}
 
   tailwind-scrollbar@3.1.0(tailwindcss@3.4.17):
     dependencies:
       tailwindcss: 3.4.17
 
-  tailwind-variants@0.1.20(tailwindcss@3.4.17):
+  tailwind-variants@1.0.0(tailwindcss@3.4.17):
     dependencies:
-      tailwind-merge: 1.14.0
+      tailwind-merge: 3.0.2
       tailwindcss: 3.4.17
 
   tailwindcss-animate@1.0.7(tailwindcss@3.4.17):
