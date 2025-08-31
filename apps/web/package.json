@@ -41,7 +41,7 @@
     "zod": "3.22.4"
   },
   "devDependencies": {
-    "@babel/core": "7.28.0",
+    "@babel/core": "7.28.3",
     "@storybook/addon-a11y": "7.6.20",
     "@storybook/addon-actions": "7.6.20",
     "@storybook/addon-essentials": "7.6.20",
@@ -61,6 +61,6 @@
     "tailwindcss": "3.4.17",
     "tsconfig": "workspace:*",
     "tw-colors": "3.3.2",
-    "webpack": "5.101.0"
+    "webpack": "5.101.3"
   }
 }
